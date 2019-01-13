@@ -1,0 +1,92 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url(../6.jpg); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	float: left;
+	color: beige;
+	font-family: "monospace" sans-serif;
+	font-style: 14px 30px;
+	font-weight: bold;
+	font-variant: small-caps;
+	display: inline-block;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+
+.main-nav{
+	float: right;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 150px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: beige;
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto" sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a{
+     border: 1px solid white;
+}
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+.hero{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 75px;
+	width: 1000px;
+}
+h2{
+	font:monospace;
+	font-family: sans-serif;
+	color: beige;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 270px;
+	text-shadow: 70%;
+}
+.button{
+	margin-top: 30px;
+	margin-left: 363px;
+}
+.btn{
+	border: 1px solid beige;
+	padding: 15px 30px;
+	color: beige;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn-one{
+	font-family: "Roboto"sans-serif;
+	color: black;
+}
+.btn-two{
+	font-family: "Roboto"sans-serif;
+	color: black;
+}
+.btn-one:hover{
+	background-color: beige;
+
+}
+.btn-two:hover{
+	background-color: beige;
+}
+ 
